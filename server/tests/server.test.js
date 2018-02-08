@@ -7,7 +7,7 @@ const {Todo} = require('./../models/todo');
 beforeEach((done) => {
     Todo.remove({}).then(() => done());
 });
-//test
+
 describe('POST /todos', () => {
     it('should create a new todo', (done) => {
         var text = 'Test todo text';
